@@ -1,0 +1,22 @@
+server:
+  port: 8282
+spring:
+  datasource:
+    data: "com.alibaba.druid.pool.DruidDataSource"
+    url: "jdbc:mysql:///nb_sql?serverTimezone=GMT%2B8"
+    username: "root"
+    password: "123456"
+  main:
+    allow-bean-definition-overriding: true
+swagger:
+  title: "NorthInterface"
+  description: "Starter for swagger 2.x"
+  version: "1.4.0.RELEASE"
+  license: "Apache License, Version 2.0"
+  licenseUrl: "https://www.apache.org/licenses/LICENSE-2.0.html"
+  contact:
+    name: "djh"
+    email: "1776678887@qq.com"
+    url: "http://www.yxjljr.com"
+  base-package: "com"
+  base-path: "/**"
